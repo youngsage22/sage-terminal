@@ -1,0 +1,26 @@
+# Build outputs
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.msix
+*.appx
+x64/
+x86/
+ARM/
+ARM64/
+Debug/
+Release/
+out/
+_deps/
+.vs/
+*.user
+*.suo
+*.cache
+packages/
+node_modules/
+.nuget/
