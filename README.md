@@ -1,220 +1,229 @@
 <div align="center">
 
-# 🌈 SAGE Terminal
+<img src="https://raw.githubusercontent.com/youngsage22/sage-terminal/main/banner.svg" alt="SAGE Terminal" width="100%" />
 
-<img src="https://img.shields.io/badge/SAGE-Terminal-blueviolet?style=for-the-badge&logo=windows-terminal&logoColor=white" />
-<img src="https://img.shields.io/badge/Windows-Terminal-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-<img src="https://img.shields.io/badge/Built_With-C%2B%2B-F34B7D?style=for-the-badge&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Platform-Windows-00BCF2?style=for-the-badge&logo=microsoft&logoColor=white" />
+<br />
 
-<br/>
+[![CI](https://github.com/youngsage22/sage-terminal/actions/workflows/ci.yml/badge.svg)](https://github.com/youngsage22/sage-terminal/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-a855f7.svg)](./LICENSE.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-f472b6.svg)](./CONTRIBUTING.md)
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4?logo=windows&logoColor=white)](https://github.com/youngsage22/sage-terminal)
+[![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cplusplus&logoColor=white)](https://github.com/youngsage22/sage-terminal)
+[![Stars](https://img.shields.io/github/stars/youngsage22/sage-terminal?style=social)](https://github.com/youngsage22/sage-terminal/stargazers)
 
-![SAGE Terminal Banner](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)
+<br />
 
-<br/>
+### **The Windows terminal that finally has some color.**
 
-> **A vibrant, colorful, and powerful terminal experience for Windows.**  
-> _SAGE Terminal_ is a modern, feature-rich terminal built for developers who want speed, style, and total control.
+*GPU-accelerated. Tabbed. Fully customizable. Vibrant by default.*
 
-<br/>
+<br />
 
-[![🟣 Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square&logo=github-actions)](https://github.com/youngsage22/sage-terminal)
-[![🔵 License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](./LICENSE)
-[![🟠 Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square)](https://github.com/youngsage22/sage-terminal/releases)
-[![🟡 Stars](https://img.shields.io/github/stars/youngsage22/sage-terminal?style=flat-square&color=yellow)](https://github.com/youngsage22/sage-terminal/stargazers)
-[![🟢 Forks](https://img.shields.io/github/forks/youngsage22/sage-terminal?style=flat-square&color=green)](https://github.com/youngsage22/sage-terminal/network)
-[![🔴 Issues](https://img.shields.io/github/issues/youngsage22/sage-terminal?style=flat-square&color=red)](https://github.com/youngsage22/sage-terminal/issues)
+[**Download**](https://github.com/youngsage22/sage-terminal/releases) · [**Themes**](#-themes) · [**Report Bug**](https://github.com/youngsage22/sage-terminal/issues/new?template=bug_report.yml) · [**Request Feature**](https://github.com/youngsage22/sage-terminal/issues/new?template=feature_request.yml)
 
 </div>
 
 ---
 
-## 🎨 What is SAGE Terminal?
+## Why SAGE Terminal?
 
-**SAGE Terminal** is a colorful, modern terminal application for Windows that puts the *wow* back into your command line. With full Unicode support, GPU-accelerated text rendering, and a deeply customizable color palette, SAGE Terminal is the terminal your workflow deserves.
+The default Windows terminal is powerful — but visually, it's the color of cement. SAGE Terminal takes everything that makes Windows Terminal great and wraps it in a design that actually feels alive.
 
-This repository contains the source code for:
+Three hand-crafted color themes. Rainbow accents out of the box. A terminal that makes you *want* to open it.
 
-| 🟣 Project | 📄 Description |
-|---|---|
-| **SAGE Terminal** | The main colorful terminal app |
-| **SAGE Terminal Preview** | Cutting-edge preview builds |
-| **Console Host** (`conhost.exe`) | The classic Windows console host |
-| **Shared Components** | Shared between both projects |
-| **ColorTool** | Set your console colors easily |
-| **Sample Projects** | How to consume Windows Console APIs |
+> "Your terminal should be as colorful as your code."
 
 ---
 
-## 🌈 Color Palette & Themes
+## 🎨 Themes
 
-SAGE Terminal ships with a curated set of vibrant themes:
+SAGE Terminal ships with **3 exclusive built-in themes** — ready to use from the first launch.
 
-| 🎨 Theme | Description |
-|---|---|
-| 🟣 **SAGE Purple** | Deep violet tones, signature look |
-| 🔵 **Ocean Blue** | Cool, calm, focused blues |
-| 🟠 **Sunset Orange** | Warm amber and coral tones |
-| 🟢 **Forest Green** | Natural, eye-friendly greens |
-| 🔴 **Ruby Red** | Bold, confident, energetic |
-| 🌈 **Rainbow Mode** | Full spectrum — cycle through all colors |
-| ⚫ **Midnight Dark** | Pure dark with neon accents |
-| ⚪ **Arctic Light** | Clean light mode with soft colors |
+<table>
+<tr>
+<th>Theme</th>
+<th>Vibe</th>
+<th>Background</th>
+<th>Accent</th>
+<th>Best for</th>
+</tr>
+<tr>
+<td><b>🌑 SAGE Dark</b></td>
+<td>Clean, professional</td>
+<td><code>#0d1117</code></td>
+<td><code>#a855f7</code></td>
+<td>All-day coding</td>
+</tr>
+<tr>
+<td><b>🌈 Rainbow</b></td>
+<td>Vibrant, playful</td>
+<td><code>#0f0a1e</code></td>
+<td><code>#f472b6</code></td>
+<td>Standing out in screenshots</td>
+</tr>
+<tr>
+<td><b>🌅 Sunset</b></td>
+<td>Warm, focused</td>
+<td><code>#1a0a00</code></td>
+<td><code>#f97316</code></td>
+<td>Late-night sessions</td>
+</tr>
+</table>
+
+Switching themes:
+
+```json
+// In your SAGE Terminal settings.json
+{
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Rainbow"
+    }
+  }
+}
+```
+
+Want to add your own? [Submit a theme PR](./CONTRIBUTING.md#adding-a-theme) — they're fast-tracked.
 
 ---
 
-## ⚡ Key Features
+## ✨ Features
 
-```
- ███████╗ █████╗  ██████╗ ███████╗    ████████╗███████╗██████╗ ███╗   ███╗
- ██╔════╝██╔══██╗██╔════╝ ██╔════╝    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
- ███████╗███████║██║  ███╗█████╗         ██║   █████╗  ██████╔╝██╔████╔██║
- ╚════██║██╔══██║██║   ██║██╔══╝         ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║
- ███████║██║  ██║╚██████╔╝███████╗       ██║   ███████╗██║  ██║██║ ╚═╝ ██║
- ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝       ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
-```
+Everything from **Windows Terminal**, plus SAGE's signature color treatment:
 
-- 🎨 **Vivid Multi-Color Themes** — choose from dozens of built-in color schemes or build your own
-- ⚡ **GPU-Accelerated Rendering** — buttery-smooth text at any size
-- 🗂️ **Tabbed Interface** — run multiple terminals side-by-side
-- 🔤 **Full Unicode & Emoji Support** — display any character, anywhere
-- 🖱️ **Rich Mouse Interaction** — click, scroll, select with precision
-- 🔍 **Fuzzy Search** — `Ctrl+Shift+F` to search your scrollback
-- 🎛️ **Profiles** — per-shell color schemes, fonts, and settings
-- 📐 **Pane Splitting** — horizontal and vertical splits in one window
-- 🌐 **WSL & SSH Ready** — connect to Linux and remote machines seamlessly
-- ⌨️ **Fully Remappable Keybindings** — your terminal, your rules
+<table>
+<tr>
+<td width="50%">
 
----
+**⚡ GPU-Accelerated Rendering**
+Built on DirectX — buttery smooth text at any font size or scale.
 
-## 🚀 Installation
+**📑 Tabs & Panes**
+Split your workspace horizontally or vertically. Drag to reorder tabs.
 
-### ✅ Recommended: Microsoft Store
-<a href="https://aka.ms/terminal"><img src="https://img.shields.io/badge/Get%20It%20On-Microsoft%20Store-0078D6?style=for-the-badge&logo=microsoft&logoColor=white" /></a>
+**🎨 3 Exclusive Themes**
+SAGE Dark, Rainbow, and Sunset — each pixel-perfect and hand-crafted.
 
-### 📦 Other Methods
+**🔤 Full Unicode + Emoji Support**
+Every character renders correctly. Including 🦄.
 
-**Via winget:**
-```powershell
-winget install --id Microsoft.WindowsTerminal -e
-```
+</td>
+<td width="50%">
 
-**Via Chocolatey:**
-```powershell
-choco install microsoft-windows-terminal
-```
+**🔧 JSON Config**
+Every setting is a JSON key. Version-control your terminal setup.
 
-**Via Scoop:**
-```powershell
-scoop install windows-terminal
-```
+**🐚 Any Shell**
+PowerShell, CMD, WSL2, Git Bash, fish — SAGE Terminal runs them all.
 
-**Via GitHub Releases:**
-Download the latest `.msixbundle` from the [Releases page](https://github.com/youngsage22/sage-terminal/releases).
+**🖥️ Multiple Windows**
+Open as many SAGE Terminal windows as you need. Each with its own profile.
+
+**🔗 Clickable URLs**
+Links in your terminal output are clickable. Finally.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Building from Source
+## 🚀 Getting Started
 
-### Prerequisites
+### Option 1 — Download the Release *(recommended)*
 
-```
-🟣 Visual Studio 2022 or later (with C++ Desktop workload)
-🔵 Windows 11 SDK (10.0.22621.0 or higher)
-🟠 .NET Framework 4.8 SDK
-🟢 NuGet Package Manager
-```
+Head to [**Releases**](https://github.com/youngsage22/sage-terminal/releases) and download the latest `.msixbundle`. Double-click to install.
 
-### Build Steps
+### Option 2 — Build from Source
+
+**Requirements:**
+- Windows 10 (21H2+) or Windows 11
+- Visual Studio 2022
+  - Workload: **Desktop development with C++**
+  - Workload: **Universal Windows Platform development**
+  - Component: **Windows 11 SDK (10.0.22000.0)**
 
 ```powershell
-# Clone the repo
+# Clone
 git clone https://github.com/youngsage22/sage-terminal.git
 cd sage-terminal
 
-# Build in PowerShell
-Import-Module .\tools\OpenConsole.psm1
-Set-MsBuildDevEnvironment
-Invoke-OpenConsoleBuild
-
-# Or build in Cmd
-.\tools\razzle.cmd
-bcz
+# Open and build in Visual Studio
+start OpenConsole.sln
+# Build → Build Solution (F7)
+# Debug → Start Debugging (F5)
 ```
+
+Full build documentation: [BUILDING.md](./BUILDING.md)
 
 ---
 
-## 🎮 Quick Start
+## ⌨️ Keyboard Shortcuts
 
-Once installed, open SAGE Terminal and try these color-packed commands:
-
-```bash
-# Check your shell
-echo $SHELL
-
-# List with color
-ls --color=auto
-
-# View system info
-neofetch
-
-# Open htop for a colorful process viewer
-htop
-```
+| Action | Shortcut |
+|--------|----------|
+| New tab | `Ctrl + T` |
+| Close tab | `Ctrl + W` |
+| Split pane (horizontal) | `Alt + Shift + -` |
+| Split pane (vertical) | `Alt + Shift + +` |
+| Switch tab | `Ctrl + Tab` |
+| Open settings | `Ctrl + ,` |
+| Find | `Ctrl + Shift + F` |
+| Fullscreen | `F11` |
+| Copy | `Ctrl + C` |
+| Paste | `Ctrl + V` |
 
 ---
 
-## 📖 Documentation
+## 🗺️ Roadmap
 
-| 📚 Resource | 🔗 Link |
-|---|---|
-| Official Terminal Docs | [docs.microsoft.com/windows/terminal](https://docs.microsoft.com/windows/terminal) |
-| Customization Guide | [doc/user-docs/](./doc/user-docs/) |
-| Profiles & Settings | [doc/user-docs/](./doc/user-docs/) |
-| Keybinding Reference | [doc/user-docs/](./doc/user-docs/) |
-| Building the Code | [doc/building.md](./doc/building.md) |
-| Contributing Guide | [CONTRIBUTING.md](./CONTRIBUTING.md) |
+- [x] SAGE Dark, Rainbow, and Sunset themes
+- [x] Full rebrand with custom branding guide (`SAGE_TERMINAL.md`)
+- [x] Custom README, contributing guide, and support docs
+- [ ] SAGE theme marketplace (submit & browse community themes)
+- [ ] One-click theme preview in settings
+- [ ] Animated startup splash with SAGE logo
+- [ ] Theme export / share as URL
+- [ ] Pre-built release binaries
+
+Want to help build any of these? [See the contributing guide →](./CONTRIBUTING.md)
 
 ---
 
 ## 🤝 Contributing
 
-We ❤️ contributions! Whether it's a bug fix, a new theme, or a brand-new feature — your work makes SAGE Terminal better for everyone.
+SAGE Terminal welcomes all contributions. Read [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
 
-Please read our [Contributing Guide](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md) before submitting a pull request.
+Not sure where to start? Look for issues tagged [`good first issue`](https://github.com/youngsage22/sage-terminal/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
-```
-🔴 Step 1 — Fork this repo
-🟠 Step 2 — Create a feature branch  (git checkout -b feature/amazing-colors)
-🟡 Step 3 — Commit your changes      (git commit -m 'Add rainbow theme')
-🟢 Step 4 — Push to your branch      (git push origin feature/amazing-colors)
-🔵 Step 5 — Open a Pull Request      🎉
-```
+The easiest contribution: **submit a new color theme**. No C++ required — just a JSON file. [Instructions here.](./CONTRIBUTING.md#adding-a-theme)
 
 ---
 
-## 🛡️ Security
+## 🙏 Credits
 
-If you discover a security vulnerability, please follow responsible disclosure. See [SECURITY.md](./SECURITY.md) for details. Do **not** open a public issue.
+SAGE Terminal is built on top of [Microsoft Terminal](https://github.com/microsoft/terminal) — an incredible open-source project by Microsoft and its contributors. The GPU rendering engine, tab system, pane splitting, and settings infrastructure are all their work. SAGE adds branding, color themes, and a friendlier face.
+
+If you enjoy SAGE Terminal, [go star Microsoft Terminal too](https://github.com/microsoft/terminal) — they deserve it.
 
 ---
 
-## 📜 License
+## 📄 License
 
-SAGE Terminal is released under the **[MIT License](./LICENSE)**.
-
-The original source code is from the [Microsoft Terminal project](https://github.com/microsoft/terminal), used and adapted under the MIT License.
+[MIT](./LICENSE.md) — free to use, fork, modify, and redistribute.
 
 ---
 
 <div align="center">
 
-**Made with 🌈 by [youngsage22](https://github.com/youngsage22)**
+**If SAGE Terminal made your terminal a happier place, leave a ⭐**
 
-<img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" />
-<img src="https://img.shields.io/badge/Hacktoberfest-Friendly-orange?style=flat-square" />
-<img src="https://img.shields.io/badge/Maintained-Yes-blue?style=flat-square" />
+Takes one second. Means a lot.
 
-_If SAGE Terminal saved you time or made your workflow more colorful, give it a ⭐ — it means a lot!_
+<br />
+
+Built with 💜 by [youngsage22](https://github.com/youngsage22)
+
+`★ Star` · [`🐛 Bug`](https://github.com/youngsage22/sage-terminal/issues/new?template=bug_report.yml) · [`🚀 Feature`](https://github.com/youngsage22/sage-terminal/issues/new?template=feature_request.yml) · [`🎨 Theme PR`](./CONTRIBUTING.md#adding-a-theme)
 
 </div>

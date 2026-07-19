@@ -1,0 +1,48 @@
+name: 🚀 Feature Request
+description: Got an idea to make SAGE Terminal even more vibrant?
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love ideas! Describe your feature request below.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: I use SAGE Terminal 8 hours a day and I wish I could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your ideal solution
+      placeholder: A button in settings that lets me...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature category
+      options:
+        - Themes & Colors
+        - Performance
+        - Keyboard Shortcuts
+        - Tabs & Panes
+        - Font & Text Rendering
+        - Settings UI
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Would you like to contribute this?
+      options:
+        - label: Yes, I'd love to open a PR for this
+        - label: I can help test it

@@ -1,0 +1,74 @@
+name: 🐛 Bug Report
+description: Something not working? Let us know.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! The more detail you give, the faster we can fix it.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug. What did you see, and what did you expect to see?
+      placeholder: When I launch SAGE Terminal with the Rainbow theme, the cursor disappears...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open SAGE Terminal
+        2. Switch to Rainbow theme
+        3. Type anything
+        4. Cursor is gone
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: SAGE Terminal version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: false
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10 (21H2+)
+        - Windows 10 (older)
+        - Windows Server
+    validations:
+      required: true
+
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme in use
+      options:
+        - SAGE Dark (default)
+        - Rainbow
+        - Sunset
+        - Custom
+        - Not applicable
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Low (visual glitch)
+        - Medium (feature broken)
+        - High (crash / data loss)
+    validations:
+      required: true

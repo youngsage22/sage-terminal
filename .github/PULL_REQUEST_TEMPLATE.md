@@ -1,14 +1,24 @@
-## Summary of the Pull Request
+## 🎨 What does this PR do?
 
-## References and Relevant Issues
+<!-- Describe your change clearly. What problem does it solve? -->
 
-## Detailed Description of the Pull Request / Additional comments
+## 🔗 Related Issues
 
-## Validation Steps Performed
+Closes #
 
-## PR Checklist
-- [ ] Closes #xxx
-- [ ] Tests added/passed
-- [ ] Documentation updated
-   - If checked, please file a pull request on [our docs repo](https://github.com/MicrosoftDocs/terminal) and link it here: #xxx
-- [ ] Schema updated (if necessary)
+## ✅ Checklist
+
+- [ ] I've built and tested this locally on Windows
+- [ ] My code follows the existing style (see `CONTRIBUTING.md`)
+- [ ] I've updated relevant documentation or comments
+- [ ] I've tested with all three themes (SAGE Dark, Rainbow, Sunset)
+- [ ] No secrets, tokens, or credentials are included
+- [ ] I've added this to the changelog if it's a user-visible change
+
+## 🖼️ Screenshots (highly encouraged)
+
+<!-- Before/after screenshots or recordings for visual/UI changes make review much faster! -->
+
+## 💬 Notes for reviewers
+
+<!-- Edge cases, known limitations, or anything a reviewer should know -->

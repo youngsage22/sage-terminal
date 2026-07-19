@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Theme Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate JSON theme files
+        run: |
+          echo "Validating SAGE Terminal theme JSON files..."
+          for f in $(find . -name "*.json" -not -path "*/node_modules/*" -not -path "*/.git/*" 2>/dev/null | head -50); do
+            python3 -c "import json,sys; json.load(open('$f'))" && echo "✓ $f" || { echo "✗ $f"; exit 1; }
+          done
+          echo "All JSON files valid ✓"
+
+      - name: Check brand docs exist
+        run: |
+          for f in SAGE_TERMINAL.md CONTRIBUTING.md README.md; do
+            [ -f "$f" ] && echo "✓ $f found" || { echo "✗ $f missing"; exit 1; }
+          done
+
+      - name: Line count summary
+        run: |
+          echo "--- Repository summary ---"
+          echo "Total files: $(find . -not -path '*/.git/*' -type f | wc -l)"
+          echo "C++ source:  $(find . -name '*.cpp' -not -path '*/.git/*' | wc -l) files"
+          echo "C++ headers: $(find . -name '*.hpp' -not -path '*/.git/*' | wc -l) files"
+          echo "JSON configs: $(find . -name '*.json' -not -path '*/.git/*' -not -path '*/node_modules/*' | wc -l) files"

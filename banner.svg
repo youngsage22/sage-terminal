@@ -1,0 +1,151 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="40%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0f1a"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f472b6"/>
+      <stop offset="25%" style="stop-color:#a855f7"/>
+      <stop offset="50%" style="stop-color:#3b82f6"/>
+      <stop offset="75%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f472b6;stop-opacity:0.8"/>
+      <stop offset="25%" style="stop-color:#a855f7;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:0.8"/>
+      <stop offset="75%" style="stop-color:#06b6d4;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:0.8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)" rx="12"/>
+
+  <!-- Subtle scanlines -->
+  <g opacity="0.03">
+    <rect x="0" y="0" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="4" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="8" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="12" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="16" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="20" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="24" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="28" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="32" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="36" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="40" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="44" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="48" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="52" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="56" width="1200" height="1" fill="#fff"/>
+    <rect x="0" y="60" width="1200" height="1" fill="#fff"/>
+  </g>
+
+  <!-- Rainbow gradient accent bar top -->
+  <rect x="0" y="0" width="1200" height="4" rx="2" fill="url(#barGrad)"/>
+
+  <!-- Left terminal window -->
+  <g transform="translate(40, 40)">
+    <rect x="0" y="0" width="320" height="220" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <!-- Titlebar -->
+    <rect x="0" y="0" width="320" height="34" rx="8" fill="#21262d"/>
+    <rect x="0" y="26" width="320" height="8" fill="#21262d"/>
+    <!-- Traffic lights -->
+    <circle cx="18" cy="17" r="6" fill="#ff5f57"/>
+    <circle cx="36" cy="17" r="6" fill="#febc2e"/>
+    <circle cx="54" cy="17" r="6" fill="#28c840"/>
+    <!-- Tab -->
+    <rect x="80" y="6" width="110" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="91" y="21" font-family="'Segoe UI', sans-serif" font-size="11" fill="#8b949e">❯ SAGE Terminal</text>
+
+    <!-- Terminal content -->
+    <text x="16" y="60" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#f472b6">SAGE</text>
+    <text x="52" y="60" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#a855f7">Terminal</text>
+    <text x="136" y="60" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#3b82f6">v1.0</text>
+    <text x="172" y="60" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#8b949e">// Vibrant. Fast. Yours.</text>
+
+    <text x="16" y="82" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#22c55e">➜</text>
+    <text x="34" y="82" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#06b6d4">~</text>
+    <text x="52" y="82" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#e6edf3">git clone sage-terminal</text>
+
+    <text x="16" y="102" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#8b949e">Cloning into 'sage-terminal'...</text>
+    <text x="16" y="120" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#22c55e">✓ Done.</text>
+
+    <text x="16" y="142" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#22c55e">➜</text>
+    <text x="34" y="142" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#a855f7">sage-terminal</text>
+    <text x="140" y="142" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#e6edf3">wt --theme Rainbow</text>
+
+    <text x="16" y="162" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#f472b6">🌈</text>
+    <text x="34" y="162" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#e6edf3">Loading Rainbow theme...</text>
+    <text x="16" y="180" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#22c55e">✓ Beautiful.</text>
+
+    <text x="16" y="202" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#22c55e">➜</text>
+    <text x="34" y="202" font-family="'Cascadia Code', 'Courier New', monospace" font-size="12" fill="#a855f7">sage-terminal</text>
+    <rect x="153" y="190" width="8" height="14" rx="1" fill="#f472b6" opacity="0.9"/>
+  </g>
+
+  <!-- Center: SAGE title -->
+  <text x="600" y="120" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="78" font-weight="900" fill="url(#titleGrad)" filter="url(#textglow)" letter-spacing="-1">SAGE</text>
+  <text x="600" y="162" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="300" fill="#8b949e" letter-spacing="12">TERMINAL</text>
+
+  <!-- Tagline -->
+  <text x="600" y="196" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#6e7681" letter-spacing="1">The Windows terminal that finally has some color</text>
+
+  <!-- Color theme swatches -->
+  <g transform="translate(480, 216)">
+    <rect x="0" y="0" width="18" height="18" rx="3" fill="#f472b6"/>
+    <rect x="22" y="0" width="18" height="18" rx="3" fill="#a855f7"/>
+    <rect x="44" y="0" width="18" height="18" rx="3" fill="#3b82f6"/>
+    <rect x="66" y="0" width="18" height="18" rx="3" fill="#06b6d4"/>
+    <rect x="88" y="0" width="18" height="18" rx="3" fill="#22c55e"/>
+    <rect x="110" y="0" width="18" height="18" rx="3" fill="#eab308"/>
+    <rect x="132" y="0" width="18" height="18" rx="3" fill="#f97316"/>
+    <rect x="154" y="0" width="18" height="18" rx="3" fill="#ef4444"/>
+    <text x="184" y="14" font-family="'Segoe UI', sans-serif" font-size="12" fill="#6e7681">3 built-in themes</text>
+  </g>
+
+  <!-- Right: theme cards -->
+  <g transform="translate(850, 40)">
+    <!-- SAGE Dark -->
+    <rect x="0" y="0" width="142" height="68" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="0" y="0" width="142" height="24" rx="6" fill="#21262d"/>
+    <rect x="0" y="18" width="142" height="6" fill="#21262d"/>
+    <text x="12" y="16" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8b949e" font-weight="600">SAGE Dark</text>
+    <text x="12" y="38" font-family="'Cascadia Code', monospace" font-size="10" fill="#22c55e">$ npm install</text>
+    <text x="12" y="54" font-family="'Cascadia Code', monospace" font-size="10" fill="#3b82f6">→ packages installed</text>
+
+    <!-- Rainbow -->
+    <rect x="152" y="0" width="142" height="68" rx="6" fill="#0d1117" stroke="#a855f7" stroke-width="1.5"/>
+    <rect x="152" y="0" width="142" height="24" rx="6" fill="#1a0b35"/>
+    <rect x="152" y="18" width="142" height="6" fill="#1a0b35"/>
+    <text x="164" y="16" font-family="'Segoe UI', sans-serif" font-size="10" fill="#a855f7" font-weight="600">🌈 Rainbow</text>
+    <text x="164" y="38" font-family="'Cascadia Code', monospace" font-size="10" fill="#f472b6">$ git status</text>
+    <text x="164" y="54" font-family="'Cascadia Code', monospace" font-size="10" fill="#06b6d4">→ clean</text>
+
+    <!-- Sunset -->
+    <rect x="0" y="80" width="294" height="68" rx="6" fill="#0d1117" stroke="#f97316" stroke-width="1.5"/>
+    <rect x="0" y="80" width="294" height="24" rx="6" fill="#1a0a00"/>
+    <rect x="0" y="98" width="294" height="6" fill="#1a0a00"/>
+    <text x="12" y="96" font-family="'Segoe UI', sans-serif" font-size="10" fill="#f97316" font-weight="600">🌅 Sunset</text>
+    <text x="12" y="118" font-family="'Cascadia Code', monospace" font-size="10" fill="#fcd34d">$ cargo build --release</text>
+    <text x="12" y="134" font-family="'Cascadia Code', monospace" font-size="10" fill="#f472b6">→ Finished in 2.4s ✓</text>
+
+    <!-- Star CTA -->
+    <rect x="0" y="160" width="294" height="40" rx="6" fill="url(#titleGrad)" opacity="0.15" stroke="#a855f7" stroke-width="1"/>
+    <text x="147" y="185" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#e2e8f0" font-weight="600">⭐  Star this repo if it made you smile</text>
+  </g>
+
+  <!-- Rainbow gradient accent bar bottom -->
+  <rect x="0" y="296" width="1200" height="4" rx="2" fill="url(#barGrad)"/>
+</svg>
