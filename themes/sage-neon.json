@@ -1,0 +1,23 @@
+{
+  "name": "SAGE Neon",
+  "background": "#0a0010",
+  "foreground": "#f0e6ff",
+  "cursorColor": "#ff00ff",
+  "selectionBackground": "#ff00ff30",
+  "black": "#1a0030",
+  "red": "#ff2060",
+  "green": "#00ff9f",
+  "yellow": "#ffe600",
+  "blue": "#00b4ff",
+  "purple": "#ff00ff",
+  "cyan": "#00ffff",
+  "white": "#f0e6ff",
+  "brightBlack": "#4d0080",
+  "brightRed": "#ff6090",
+  "brightGreen": "#80ffcf",
+  "brightYellow": "#fff380",
+  "brightBlue": "#80d9ff",
+  "brightPurple": "#ff80ff",
+  "brightCyan": "#80ffff",
+  "brightWhite": "#ffffff"
+}

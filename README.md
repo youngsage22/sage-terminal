@@ -5,6 +5,9 @@
 <br />
 
 [![CI](https://github.com/youngsage22/sage-terminal/actions/workflows/ci.yml/badge.svg)](https://github.com/youngsage22/sage-terminal/actions/workflows/ci.yml)
+[![Discussions](https://img.shields.io/github/discussions/youngsage22/sage-terminal?color=a855f7&label=Discussions)](https://github.com/youngsage22/sage-terminal/discussions)
+[![Codespaces](https://img.shields.io/badge/Open%20in-Codespaces-181717?logo=github)](https://codespaces.new/youngsage22/sage-terminal)
+[![Changelog](https://img.shields.io/badge/Changelog-v1.0.0-22c55e)](./CHANGELOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-a855f7.svg)](./LICENSE.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-f472b6.svg)](./CONTRIBUTING.md)
 [![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D4?logo=windows&logoColor=white)](https://github.com/youngsage22/sage-terminal)
@@ -37,53 +40,39 @@ Three hand-crafted color themes. Rainbow accents out of the box. A terminal that
 
 ## 🎨 Themes
 
-SAGE Terminal ships with **3 exclusive built-in themes** — ready to use from the first launch.
+SAGE Terminal ships with **11 exclusive built-in themes** — ready the moment you launch.
 
-<table>
-<tr>
-<th>Theme</th>
-<th>Vibe</th>
-<th>Background</th>
-<th>Accent</th>
-<th>Best for</th>
-</tr>
-<tr>
-<td><b>🌑 SAGE Dark</b></td>
-<td>Clean, professional</td>
-<td><code>#0d1117</code></td>
-<td><code>#a855f7</code></td>
-<td>All-day coding</td>
-</tr>
-<tr>
-<td><b>🌈 Rainbow</b></td>
-<td>Vibrant, playful</td>
-<td><code>#0f0a1e</code></td>
-<td><code>#f472b6</code></td>
-<td>Standing out in screenshots</td>
-</tr>
-<tr>
-<td><b>🌅 Sunset</b></td>
-<td>Warm, focused</td>
-<td><code>#1a0a00</code></td>
-<td><code>#f97316</code></td>
-<td>Late-night sessions</td>
-</tr>
-</table>
+<div align="center">
 
-Switching themes:
+| Theme | Vibe | Background | Accent | Best for |
+|-------|------|-----------|--------|----------|
+| 🌑 **SAGE Dark** | Clean, professional | `#0d1117` | `#a855f7` | All-day coding |
+| 🌈 **Rainbow** | Vibrant, playful | `#0f0a1e` | `#f472b6` | Screenshot-worthy setups |
+| 🌅 **Sunset** | Warm, focused | `#1a0a00` | `#f97316` | Late-night sessions |
+| 🔮 **SAGE Neon** | Electric, cyberpunk-lite | `#0a0010` | `#ff00ff` | Standing out |
+| 🌊 **SAGE Ocean** | Cool deep blue | `#0a1628` | `#00bfff` | Calm, focused work |
+| 🧛 **SAGE Dracula** | Beloved Dracula palette | `#282a36` | `#ff79c6` | Dracula fans |
+| ❄️ **SAGE Nord** | Minimal arctic | `#2e3440` | `#88c0d0` | Minimalist devs |
+| 🤖 **SAGE Cyberpunk** | Matrix green on black | `#0d0208` | `#00ff41` | Hacker aesthetic |
+| 🎨 **SAGE Monokai** | Classic Monokai Pro | `#272822` | `#ae81ff` | Monokai loyalists |
+| 🐱 **SAGE Catppuccin** | Soft pastel Mocha | `#1e1e2e` | `#cba6f7` | Pastel lovers |
+| ☀️ **SAGE Solarized** | Precision contrast | `#002b36` | `#268bd2` | Eye-strain fighters |
+
+</div>
+
+All theme JSON files live in the [`/themes`](./themes/) folder. Applying a theme:
 
 ```json
-// In your SAGE Terminal settings.json
 {
   "profiles": {
     "defaults": {
-      "colorScheme": "Rainbow"
+      "colorScheme": "SAGE Neon"
     }
   }
 }
 ```
 
-Want to add your own? [Submit a theme PR](./CONTRIBUTING.md#adding-a-theme) — they're fast-tracked.
+Want to add your own? [Theme contributions are the easiest PR you can make →](./CONTRIBUTING.md#adding-a-theme)
 
 ---
 
@@ -125,6 +114,16 @@ Links in your terminal output are clickable. Finally.
 </td>
 </tr>
 </table>
+
+---
+
+## ☁️ Open in Codespaces
+
+The fastest way to explore the codebase — no local setup required.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/youngsage22/sage-terminal)
+
+A pre-configured dev container launches with the full C++ toolchain, VS Code extensions (IntelliSense, GitLens, CMake), and PowerShell ready to go.
 
 ---
 
@@ -187,6 +186,19 @@ Full build documentation: [BUILDING.md](./BUILDING.md)
 - [ ] Pre-built release binaries
 
 Want to help build any of these? [See the contributing guide →](./CONTRIBUTING.md)
+
+---
+
+## 💬 Community & Discussions
+
+Have a question? Want to share your setup or suggest a theme? Head to **[GitHub Discussions](https://github.com/youngsage22/sage-terminal/discussions)**.
+
+| Category | Use it for |
+|----------|-----------|
+| 💡 Ideas | Suggest features, themes, or improvements |
+| 🎨 Show & Tell | Share your SAGE Terminal setup |
+| 🆘 Help | Troubleshoot build or config issues |
+| 📣 Announcements | Release notes and project news |
 
 ---
 

@@ -1,0 +1,23 @@
+{
+  "name": "SAGE Ocean",
+  "background": "#0a1628",
+  "foreground": "#cdd9e5",
+  "cursorColor": "#00bfff",
+  "selectionBackground": "#00bfff30",
+  "black": "#0d2137",
+  "red": "#e05560",
+  "green": "#57c7ad",
+  "yellow": "#fac863",
+  "blue": "#3b9dd2",
+  "purple": "#9a77cf",
+  "cyan": "#00c7e6",
+  "white": "#cdd9e5",
+  "brightBlack": "#1d3954",
+  "brightRed": "#ff8c94",
+  "brightGreen": "#8ef0d8",
+  "brightYellow": "#ffd899",
+  "brightBlue": "#70c0ff",
+  "brightPurple": "#c8a9f5",
+  "brightCyan": "#5ddaed",
+  "brightWhite": "#ffffff"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SAGE Cyberpunk",
+  "background": "#0d0208",
+  "foreground": "#00ff41",
+  "cursorColor": "#ffff00",
+  "selectionBackground": "#ffff0030",
+  "black": "#0d0208",
+  "red": "#ff003c",
+  "green": "#00ff41",
+  "yellow": "#ffff00",
+  "blue": "#00b4ff",
+  "purple": "#f000ff",
+  "cyan": "#00ffff",
+  "white": "#cccccc",
+  "brightBlack": "#1a1a1a",
+  "brightRed": "#ff5577",
+  "brightGreen": "#80ff9f",
+  "brightYellow": "#ffff80",
+  "brightBlue": "#80d9ff",
+  "brightPurple": "#f880ff",
+  "brightCyan": "#80ffff",
+  "brightWhite": "#ffffff"
+}
